@@ -3,7 +3,7 @@
     height: 130px;
     background-color: hsl(0, 83%, 44%);
     margin-bottom: 10px;
-    background: #D8E3AB url(./image/logo.png) no-repeat 5% 50%;
+    background: #00ffaa url(./image/logo.png) no-repeat 5% 50%;
   }
 
   #navbar {
@@ -43,4 +43,19 @@ h1{
     border-left: 6px solid #ff5c00;
     height: 33px;
 
+}
+.centered-wrapper {
+  position: relative;
+  text-align: center;
+}
+.centered-wrapper:before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 0; height: 100%;
+  vertical-align: middle;
+}
+.centered-content {
+  display: inline-block;
+  vertical-align: middle;
 }
