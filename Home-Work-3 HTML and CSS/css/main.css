@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    background-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h4, h5, h6 {
+    margin: 0px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    position: absolute;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+
+    
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+}
+
+/* Nav */
+.nav {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.nav__link {
+    color: #fff;
+    margin-left: 50px;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 180px;
+    background: url(./image/Tech.jpg)
+    
+
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title {
+    margin: 0 0 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    line-height: 70px;
+    color: #fff;
+    font-weight: bolt;
+    text-transform: uppercase;
+    text-align: center;
+
+    
+}
+
+.intro_subtitle {
+    font-size: 22px;
+    color: #fff;
+    line-height: 1,5;
+    font-weight: 400;
+    text-align: center;
+    
+
+
+}
+
+.content {
+    margin: 90px;
+    text-align: center;
+    
+}
+
+.content__title {
+    font-size: 35px;
+}
+
+.general__text {
+    font-size: 17px;
+}
+
+
+
+.vl {
+    border-left: 6px solid orangered;
+    height: 35px;
+}
+
+
+.footer {
+    padding: 70px 0;
+    background-color: black;
+
+}
+
+.footer_inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 3.33333%;
+    text-align: center;
+
+}
+
+.footer_title {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+
+.footer__description {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+@media (max-width: 1200px;)
