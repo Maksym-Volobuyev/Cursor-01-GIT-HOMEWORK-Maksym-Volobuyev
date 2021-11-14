@@ -93,6 +93,7 @@
     font-size: 12px;
     line-height: 20px;
     color: #FFFFFF;
+    border: none;
 }
 
 
@@ -204,6 +205,7 @@
     height: 28px;
     background: rgba(13, 12, 34, 0.05);
     border-radius: 8px;
+    border: none;
 }
 
 .b10-button2 {
@@ -213,6 +215,7 @@
     color: #FFFFFF;
     background: #EA4C89;
     border-radius: 8px;
+    border: none;
 }
 
 
@@ -261,6 +264,7 @@
     align-items: flex-start;
     font-family: Inter;
     padding-top: 4px;
+    border: none;
 }
 
 .b02-color-text {
