@@ -59,9 +59,14 @@
     bottom: 115px;
 }
 
+img {
+    cursor: pointer
+}
+
 
 .vector1 {
     margin-right: 25px;
+    cursor: pointer;
 }
 
 .vector3 {
@@ -155,14 +160,10 @@
     height: 60px;
     left: 735px;
     top: 617px;
-
-    /* Gray 1 */
-
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
     padding-left: 31px;
-    padding-top: 21px;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -181,14 +182,10 @@
     height: 60px;
     left: 1020px;
     top: 617px;
-
-    /* Gray 1 */
-
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
     padding-left: 31px;
-    padding-top: 21px;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -205,14 +202,10 @@
     height: 60px;
     left: 735px;
     top: 701px;
-
-    /* Gray 1 */
-
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
     padding-left: 31px;
-    padding-top: 21px;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -230,20 +223,15 @@
     height: 60px;
     left: 735px;
     top: 785px;
-
-    /* Gray 1 */
-
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
-    padding-left: 31px;
-    padding-top: 21px;
+    padding-left: 31px;    
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-
     color: rgba(19, 39, 67, 0.5);
 }
 
@@ -269,7 +257,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
+    cursor: pointer;
 
     text-transform: uppercase;
 
@@ -359,7 +347,6 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 160%;
-    /* or 19px */
     text-decoration: none;
     text-transform: capitalize;
 
@@ -369,6 +356,7 @@
 
 .text-none {
     text-decoration: none;
+    color: #000000;
 }
 
 
@@ -398,13 +386,13 @@
     height: 14px;
     left: 734px;
     top: 1185px;
-
+    cursor: pointer;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-
+    text-decoration: none;
     color: #101010;
 
 }
@@ -417,7 +405,7 @@
     height: 14px;
     left: 734px;
     top: 1210px;
-
+    text-decoration: none;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
